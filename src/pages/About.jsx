@@ -4,8 +4,8 @@ import { useStateContext } from "../contexts/ContextProvider";
 
 const About = () => {
   const { currentMode } = useStateContext();
-  const card = "w-5/6 h-48 text-base text-left dark:border shadow rounded-md my-2 p-2 hover:shadow-md hover:bg-gray-100 dark:hover:bg-gray-900 hover:duration-500";
-  const cardTitle = "font-normal text-xl underline text-center mb-2";
+  const card = "w-5/6 h-40 tablet:h-48 text-lg text-left dark:border shadow rounded-md my-2 p-2 hover:shadow-md hover:bg-gray-100 dark:hover:bg-gray-900 hover:duration-500";
+  const cardTitle = "font-normal text-xl border-b pb-2 rounded-sm text-center mb-2";
 
   return (
     <>
@@ -19,13 +19,13 @@ const About = () => {
             )}
           </div>
 
-          <div className="font-semibold text-2xl tablet:text-2xl flex">
+          <div className="font-normal text-2xl tablet:text-3xl flex">
             <span>Level:</span>
             <div className="ml-2">{aboutMeData.currentLevel}</div>
           </div>
 
           <div className="w-full flex justify-center">
-            <div className="w-5/6 text-base tablet:text-lg py-5 tablet:py-2">
+            <div className="w-5/6 text-xl font-light tablet:text-xl py-6 tablet:py-2">
               {aboutMeData.description}
             </div>
           </div>

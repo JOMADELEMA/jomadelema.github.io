@@ -1,24 +1,27 @@
 import React from "react";
 import { contactData } from "./../data/siteData";
 
+const colSpan1 = "col-span-1";
+const colSpan2 = "col-span-2";
+
 const Contact = () => {
   return (
     <>
       <div className="h-screen py-12 flex flex-col justify-center">
         <div className=" text-black dark:text-white flex flex-col justify-center items-center">
           <div className="text-3xl tablet:text-5xl font-semibold">Contact</div>
-          <div className="w-11/12 tablet:5/6 tablet:flex">
+          <div className="w-11/12 tablet:5/6 tablet:grid tablet:grid-cols-2 ">
             {contactData.map((item) => (
-              <div key={item.id} className="text-lg tablet:text-base font-light my-5 flex flex-col px-2 tablet:py-10 tablet:w-1/3">
-                <div className="tablet:h-40">{item.description}</div>
-                <div className=" hover:text-blue-300 mt-5 flex justify-center">
+              <div key={item.id} className={`text-xl font-light my-5 flex flex-col px-2  ${item.id === "email" ? colSpan2 : colSpan1}`}>
+                  <div className="my-10 px-10">{item.description}</div>
+                <div className="hover:text-blue-300 flex flex-col justify-center ">
                   <a
                     href={item.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-xl tablet:text-sm underline underline-offset-4 self-center flex"
+                    className="text-xl tablet:text-2xl underline underline-offset-4 self-center flex w-full justify-center"
                   >
-                  <span className="mr-3">{item.icon}</span>
+                    <span className="mr-3 self-center">{item.icon}</span>
                     {item.name}
                   </a>
                 </div>
