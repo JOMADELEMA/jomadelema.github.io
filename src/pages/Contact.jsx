@@ -4,7 +4,7 @@ import { contactData } from "./../data/siteData";
 const Contact = () => {
   return (
     <>
-      <div className="h-screen py-12 flex flex-col justify-center" id="contact-section">
+      <div className="h-screen py-12 flex flex-col justify-center">
         <div className=" text-black dark:text-white flex flex-col justify-center items-center">
           <div className="text-3xl tablet:text-5xl font-semibold">Contact</div>
           <div className="w-11/12 tablet:5/6 tablet:flex">
