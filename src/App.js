@@ -13,7 +13,7 @@ function App() {
       <div className={currentMode === "Dark" ? "dark" : ""}>
         <div className="h-screen bg-f-bg dark:bg-fdark-bg overflow-auto">
           <HashRouter>
-            <div className="h-full">
+            <div className="h-full z-10">
               <Navbar className="z-10 bg-transparent"/>
               <AppRouter />
             </div>

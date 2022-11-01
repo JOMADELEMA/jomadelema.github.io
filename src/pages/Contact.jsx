@@ -7,12 +7,12 @@ const colSpan2 = "col-span-2";
 const Contact = () => {
   return (
     <>
-      <div className="h-screen py-12 flex flex-col justify-center">
-        <div className=" text-black dark:text-white flex flex-col justify-center items-center">
+      <div className="h-screen py-12 flex justify-center">
+        <div className=" text-black dark:text-white flex flex-col justify-center items-center laptop:w-11/12">
           <div className="text-3xl tablet:text-5xl font-semibold">Contact</div>
           <div className="w-11/12 tablet:5/6 tablet:grid tablet:grid-cols-2 ">
             {contactData.map((item) => (
-              <div key={item.id} className={`text-xl font-light my-5 flex flex-col px-2  ${item.id === "email" ? colSpan2 : colSpan1}`}>
+              <div key={item.id} className={`text-xl font-light flex flex-col my-3 tablet:m-5 pb-10 shadow dark:bg-fdark-hover1 dark:border rounded-md ${item.id === "email" ? colSpan2 : colSpan1}`}>
                   <div className="my-10 px-10">{item.description}</div>
                 <div className="hover:text-blue-300 flex flex-col justify-center ">
                   <a

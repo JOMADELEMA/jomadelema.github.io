@@ -10,7 +10,7 @@ const Knowledge = () => {
         id="expertise-section"
       >
         <div className="w-full h-full">
-          <div className=" h-full w-full grid grid-cols-2">
+          <div className=" h-full w-full grid grid-cols-2 laptop:flex">
             {skillLanguages.map((item) => (
               <Link to={item.route + "/" + item.id} className="w-full" key={item.id}>
                 <div
@@ -18,7 +18,7 @@ const Knowledge = () => {
                 >
                   <div className="self-center">{item.icon}</div>
                   <div
-                    className="text-2xl tablet:text-3xl font-semibold self-center "
+                    className="text-2xl tablet:text-3xl laptop:text-4xl font-semibold self-center "
                     key={item.id}
                   >
                     {item.language}
