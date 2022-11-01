@@ -16,9 +16,9 @@ const Navbar = () => {
 
       <div id="container-navbar" className="w-full border-spacing-2 fixed top-0 laptop:justify-center">
         <div className=" text-black dark:text-white h-12 w-full flex justify-between">
-          <div className="font-semibold self-center text-2xl w-32 flex justify-center">
+          <div className="w-16 tablet:w-32 font-semibold self-center text-2xl flex justify-center">
             <TbMenu2
-              size={25}
+              size={30}
               className="cursor-pointer laptop:hidden"
               onClick={() => toggleSidebar(sidebarVisible)}
             />
@@ -32,15 +32,15 @@ const Navbar = () => {
             ))}
           </div>
           <div
-            className="w-32 cursor-pointer px-2 self-center flex justify-center "
+            className="w-16 tablet:w-32 cursor-pointer px-2 self-center flex justify-center"
             onClick={() => {
               toggleMode(currentMode);
             }}
           >
             {currentMode === "Light" ? (
-              <TbMoon size={25} />
+              <TbMoon size={30} />
             ) : (
-              <TbSun size={25} />
+              <TbSun size={30} />
             )}
           </div>
         </div>

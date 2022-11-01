@@ -312,12 +312,10 @@ export const aboutMeData = {
     "I am a person who enjoys learning and programming, I am always trying to learn more!",
   interests: ["Web Dev", "UI/UX", "Backend", "Databases"],
   hobbies: [
-    "Technology",
     "Photography",
     "Video games",
     "Cooking",
     "Drawing",
-    "Music",
   ],
   languages: [
     "Spanish",

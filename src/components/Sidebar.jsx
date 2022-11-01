@@ -32,8 +32,8 @@ const Sidebar = () => {
               key={item.id}
               className="h-10 hover:bg-f-pressed hover:dark:bg-fdark-pressed flex"
             >
-              <div className="ml-3 self-center ">{item.icon}</div>
-              <div className="ml-5 self-center">{item.name}</div>
+              <div className="ml-5 self-center ">{item.icon}</div>
+              <div className="ml-5 tablet:text-xl font-medium self-center">{item.name}</div>
             </Link>
             // <a
             //   href={item.route}
