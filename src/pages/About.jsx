@@ -4,13 +4,13 @@ import { useStateContext } from "../contexts/ContextProvider";
 
 const About = () => {
   const { currentMode } = useStateContext();
-  const card = "w-5/6 h-40 tablet:h-48 text-lg text-left dark:border shadow rounded-md my-2 p-2 hover:shadow-md hover:bg-gray-100 dark:hover:bg-gray-900 hover:duration-500";
+  const card = "w-5/6 h-40 tablet:h-48 text-lg text-left dark:border shadow rounded-md my-2 p-2 hover:shadow-md hover:bg-gray-100 dark:hover:bg-gray-900 hover:duration-500 dark:bg-fdark-hover1";
   const cardTitle = "font-normal text-xl border-b pb-2 rounded-sm text-center mb-2";
 
   return (
     <>
-      <div className="h-full" id="about-section">
-        <div className="w-full h-full text-black dark:text-white flex flex-col justify-center items-center">
+      <div className="h-full w-full flex justify-center " id="about-section">
+        <div className="w-full laptop:w-5/6 h-full text-black dark:text-white flex flex-col justify-center items-center">
           <div className="font-bold flex justify-center">
             {currentMode === "Dark" ? (
               <img src={aboutMeData.logo_w} className="w-4/6 tablet:w-3/6" alt="icon" />
@@ -19,13 +19,13 @@ const About = () => {
             )}
           </div>
 
-          <div className="font-normal text-2xl tablet:text-3xl flex">
+          <div className="font-normal text-2xl tablet:text-3xl laptop:text-4xl flex">
             <span>Level:</span>
             <div className="ml-2">{aboutMeData.currentLevel}</div>
           </div>
 
           <div className="w-full flex justify-center">
-            <div className="w-5/6 text-xl font-light tablet:text-xl py-6 tablet:py-2">
+            <div className="w-5/6 text-xl font-light tablet:text-xl laptop:text-2xl py-6 tablet:py-2">
               {aboutMeData.description}
             </div>
           </div>

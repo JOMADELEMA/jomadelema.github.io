@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <>
       <div
-        className={`h-screen bg-f-hover1 dark:bg-fdark-hover1 w-80 tablet:w-1/2 absolute top-0 shadow-lg ${
+        className={`h-screen bg-f-hover1 dark:bg-fdark-hover1 w-80 tablet:w-1/3 absolute top-0 shadow-lg ${
           sidebarVisible ? classSidebarVisible : classSidebarNoVisible
         }`}
       >
