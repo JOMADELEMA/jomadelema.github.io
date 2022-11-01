@@ -23,6 +23,7 @@ const Navbar = () => {
               onClick={() => toggleSidebar(sidebarVisible)}
             />
           </div>
+
           <div className="text-md w-full font-bold self-center justify-center hidden laptop:flex">
             {navbarLinks.map((item) => (
               <NavLink to={item.route} key={item.id} className={({ selected }) => selected ? activeLink : normalLink} smooth>

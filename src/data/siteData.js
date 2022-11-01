@@ -11,8 +11,10 @@ import {
   FaInfo,
 } from "react-icons/fa";
 
-import logo_w from '../assets/imgs/logo_w.png';
-import logo from '../assets/imgs/logo.png';
+import logo_w from "../assets/imgs/logo_w.png";
+import logo from "../assets/imgs/logo.png";
+// import icon_w from '../assets/imgs/icon_w.svg';
+// import icon from "../assets/imgs/icon.svg";
 
 const navbarLinkIconSize = 20;
 export const navbarLinks = [
@@ -87,7 +89,7 @@ export const skill = [
     group_id: "reactjs",
     name: "React JS",
     color:
-    "bg-blue-300 dark:bg-blue-700 hover:bg-blue-200 dark:hover:bg-blue-800 hover:duration-300",
+      "bg-blue-300 dark:bg-blue-700 hover:bg-blue-200 dark:hover:bg-blue-800 hover:duration-300",
     data: [
       {
         id: "demos",
@@ -115,7 +117,7 @@ export const skill = [
     group_id: "vanillajs",
     name: "Vanilla Javascript",
     color:
-    "bg-yellow-300 dark:bg-yellow-500 hover:bg-yellow-200 dark:hover:bg-yellow-600 hover:duration-300",
+      "bg-yellow-300 dark:bg-yellow-500 hover:bg-yellow-200 dark:hover:bg-yellow-600 hover:duration-300",
     data: [
       {
         id: "demos",
@@ -157,8 +159,8 @@ export const skill = [
   {
     group_id: "html",
     name: "HTML + CSS",
-    color: 
-    "bg-orange-300 dark:bg-orange-700 hover:bg-orange-200 dark:hover:bg-orange-800 hover:duration-300",
+    color:
+      "bg-orange-300 dark:bg-orange-700 hover:bg-orange-200 dark:hover:bg-orange-800 hover:duration-300",
     data: [
       {
         id: "demos",
@@ -191,7 +193,7 @@ export const skill = [
     group_id: "nodejs",
     name: "Node JS",
     color:
-    "bg-green-300 dark:bg-green-700 hover:bg-green-200 dark:hover:bg-green-800 hover:duration-300",
+      "bg-green-300 dark:bg-green-700 hover:bg-green-200 dark:hover:bg-green-800 hover:duration-300",
     data: [
       // {
       //   id: "demos",
@@ -226,14 +228,16 @@ const contactIconSize = 20;
 export const contactData = [
   {
     id: "github",
-    description: "Please feel free to check the Github repositories I have been working during these years.",
+    description:
+      "Please feel free to check the Github repositories I have been working during these years.",
     url: "http://www.github.com/JOMADELEMA",
     name: "/JOMADELEMA",
     icon: <FaGithub size={contactIconSize} />,
   },
   {
     id: "linkedin",
-    description: "Also check my linkedin profile to know about my professional career and some of my courses certifications.",
+    description:
+      "Also check my linkedin profile to know about my professional career and some of my courses certifications.",
     url: "http://www.linkedin.com/in/JOMADELEMA",
     name: "/JOMADELEMA",
     icon: <FaLinkedin size={contactIconSize} />,
@@ -297,14 +301,15 @@ export const quotes = [
   },
 ];
 
-
-
 export const aboutMeData = {
   id: "JOMADELEMA",
   logo_w,
-  logo,  
+  logo,
+  // icon_w,
+  // icon,
   currentLevel: 33,
-  description: "I am a person who enjoys learning and programming, I always trying to learn more!",
+  description:
+    "I am a person who enjoys learning and programming, I am always trying to learn more!",
   interests: ["Web Dev", "UI/UX", "Backend", "Databases"],
   hobbies: [
     "Technology",
@@ -322,31 +327,30 @@ export const aboutMeData = {
   ],
 };
 
-
 export const htmlDemos = [
-
-  {  
-  id:"photographer", 
+  {
+    id: "photographer",
     name: "Photographer Layout",
     description: "Responsive site idea for a Photographer site layout.",
     route: "photographer",
   },
-  {  
-  id:"imageGrid", 
+  {
+    id: "imageGrid",
     name: "Image Grid",
-    description: "Responsive site idea of an image grid for hand and digital drawings ",
+    description:
+      "Responsive site idea of an image grid for hand and digital drawings ",
     route: "image-grid",
   },
-  {  
-    id:"landingPage", 
+  {
+    id: "landingPage",
     name: "Landing Page",
     description: "Responsive landing page concept for a { ???? } ",
     route: "landing-page",
   },
-  {  
-    id:"blog", 
+  {
+    id: "blog",
     name: "Blog",
     description: "Responsive blog design",
     route: "blog",
   },
-]
+];

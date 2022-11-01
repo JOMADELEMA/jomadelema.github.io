@@ -6,7 +6,8 @@ const Knowledge = () => {
   return (
     <>
       <div
-        className="h-[calc(100%_-_3rem)]  text-black dark:text-white bg-f-hover1 dark:bg-fdark-hover1"
+        // className="h-[calc(100%_-_3rem)]  text-black dark:text-white bg-f-hover1 dark:bg-fdark-hover1"
+        className="h-screen text-black dark:text-white bg-f-hover1 dark:bg-fdark-hover1"
         id="expertise-section"
       >
         <div className="w-full h-full">

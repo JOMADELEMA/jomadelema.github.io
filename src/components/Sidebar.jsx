@@ -27,6 +27,7 @@ const Sidebar = () => {
         <div className="text-black dark:text-white flex flex-col">
           {navbarLinks.map((item) => (
             <Link
+            onClick={() => toggleSidebar(sidebarVisible)}
               to={item.route}
               key={item.id}
               className="h-10 hover:bg-f-pressed hover:dark:bg-fdark-pressed flex"
@@ -34,6 +35,14 @@ const Sidebar = () => {
               <div className="ml-3 self-center ">{item.icon}</div>
               <div className="ml-5 self-center">{item.name}</div>
             </Link>
+            // <a
+            //   href={item.route}
+            //   key={item.id}
+            //   className="h-10 hover:bg-f-pressed hover:dark:bg-fdark-pressed flex"
+            // >
+            //   <div className="ml-3 self-center ">{item.icon}</div>
+            //   <div className="ml-5 self-center">{item.name}</div>
+            // </a>
           ))}
         </div>
       </div>

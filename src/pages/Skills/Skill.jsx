@@ -11,8 +11,8 @@ const Expertise = () => {
   return (
     <>
       <div className="h-screen flex flex-col justify-center items-center text-black dark:text-white">
-        <div className="w-full tablet:w-10/12 px-2">
-          <Link to={"/expertise"} className="text-md flex mb-10"><BsArrowLeftShort size={30} className="self-center" /><span className="self-center">Back</span></Link>
+        <div className="w-full tablet:w-10/12 px-4 absolute top-16 ">
+          <Link to={"/expertise"} className={`text-md flex w-3/12 rounded py-1 justify-around ${selectedGroup[0].color}`}><BsArrowLeftShort size={30} className="self-center w-full" /><span className="self-center w-full">Back</span></Link>
         </div>
         {selectedGroup.map((item) => (
           <>
@@ -23,7 +23,7 @@ const Expertise = () => {
                 <div className={`flex justify-between m-2 ${data.id === "demos" ? "col-span-2" : ""}`}>
                   <Link to={data.route} key={data.id} className={`flex w-full justify-between h-20 rounded-sm 
                   ${item.color}`}>
-                    <div className="text-md tablet:text-xl font-semibold self-center pl-2">{data.name}</div>
+                    <div className="text-xl tablet:text-xl font-semibold self-center pl-2">{data.name}</div>
                     <div className="flex justify-center w-12"><BsArrowRightShort size={30} className="self-center" /></div>
                   </Link>
 
