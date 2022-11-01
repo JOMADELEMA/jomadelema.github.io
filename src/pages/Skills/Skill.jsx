@@ -11,7 +11,7 @@ const Expertise = () => {
   return (
     <>
       <div className="h-full w-full flex justify-center">
-        <div className="h-screen w-full flex flex-col justify-center items-center laptop:w-11/12 text-black dark:text-white border">
+        <div className="h-screen w-full flex flex-col justify-center items-center laptop:w-11/12 text-black dark:text-white ">
           <div className="w-full tablet:w-10/12 laptop:hidden px-4 absolute bottom-10 tablet:bottom-16">
             <Link to={"/expertise"} className={`text-md flex w-3/12 rounded-sm py-1 justify-around ${selectedGroup[0].color}`}><BsArrowLeftShort size={30} className="self-center w-full" /><span className="self-center w-full font-semibold">Back</span></Link>
           </div>
