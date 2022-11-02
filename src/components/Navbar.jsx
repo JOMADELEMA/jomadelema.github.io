@@ -15,7 +15,8 @@ const Navbar = () => {
     <>
 
       <div id="container-navbar" className="w-full border-spacing-2 fixed top-0 laptop:justify-center">
-        <div className=" text-black dark:text-white h-12 w-full flex justify-between">
+      {/* <div id="container-navbar" className="w-full border-spacing-2 laptop:justify-center"> */}
+        <div className=" text-black dark:text-white h-10 tablet:h-12 w-full flex justify-between">
           <div className="w-16 tablet:w-32  font-semibold self-center text-2xl flex justify-center">
             <TbMenu2
               size={30}

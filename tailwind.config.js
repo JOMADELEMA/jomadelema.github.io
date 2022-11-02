@@ -50,6 +50,9 @@ module.exports = {
         //grid para layout
         joma6: "4fr 1fr 1fr",
       },
+      fontSize:{
+        "10xl": "9rem",
+      },
       flex: {
         25: "0 0 25%",
         50: "0 0 50%",
