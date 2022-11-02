@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
       <div className="h-screen py-12 flex justify-center">
-        <div className=" text-black dark:text-white flex flex-col justify-center items-center laptop:w-11/12">
+        <div className=" text-black dark:text-white flex flex-col justify-center items-center laptop:w-10/12 desktop:w-8/12">
           <div className="text-3xl tablet:text-5xl font-semibold">Contact</div>
           <div className="w-11/12 tablet:5/6 tablet:grid tablet:grid-cols-2 ">
             {contactData.map((item) => (
