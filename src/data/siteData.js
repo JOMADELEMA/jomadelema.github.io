@@ -321,8 +321,6 @@ export const aboutMeData = {
   languages: [
     "Spanish",
     "English",
-    "Italian (Available in future updates)",
-    // "Japanese (Available in future updates)",
   ],
 };
 
