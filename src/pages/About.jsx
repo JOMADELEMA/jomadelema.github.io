@@ -13,7 +13,7 @@ const About = () => {
       <div className="h-full w-full flex justify-center " id="about-section">
         <div className="w-full laptop:w-10/12 desktop:w-8/12 h-full text-black dark:text-white flex flex-col justify-center items-center">
           <div className="flex flex-col laptop:flex-row  w-10/12">
-            <div className="font-normal text-5xl tablet:text-7xl laptop:text-9xl desktop:text-10xl laptop:font-semibold flex self-center mb-5 laptop:mb-0 laptop:w-1/2 laptop:h-full laptop:border-r-4 laptop:mr-5">
+            <div className="font-normal text-5xl tablet:text-7xl laptop:text-9xl desktop:text-10xl laptop:font-normal  flex self-center mb-5 laptop:mb-0 laptop:w-1/2 laptop:h-full laptop:border-r-2 laptop:border-gray-300 laptop:mr-5">
               <div className="">{aboutMeData.name}</div>
             </div>
 
