@@ -2,6 +2,7 @@ export { default as Home } from "./Home";
 export { default as Expertise } from "./Expertise";
 export { default as Contact } from "./Contact";
 export { default as About } from "./About";
+export {default as UnderConstruction} from './UnderConstruction';
 export { default as NotFound } from "./NotFound";
 
 export { default as Skill } from "./Skills/Skill";
