@@ -4,9 +4,10 @@ import {
   About,
   Home,
   Expertise,
-  Skill,
+  // Skill,
   Contact,
   NotFound,
+  UnderConstruction,
   HTML,
   Structure,
   Lists, 
@@ -26,8 +27,10 @@ export default function AppRouter() {
     <Routes>
       <Route exact path="/" element={<Home />}></Route>
 
+      
       <Route exact path="/expertise" element={<Expertise />}></Route>
-      <Route exact path="/expertise/:group" element={<Skill />}></Route>
+      {/* <Route exact path="/expertise/:group" element={<Skill />}></Route> */}
+      <Route exact path="/expertise/:group" element={<UnderConstruction />}></Route>
       <Route exact path="/expertise/html/demos" element={<HTML />} />
       <Route exact path="/expertise/html/structure" element={<Structure />} />
       <Route exact path="/expertise/html/lists" element={<Lists />} />
