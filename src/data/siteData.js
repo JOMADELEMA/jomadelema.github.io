@@ -1,18 +1,18 @@
-import { TbBrandJavascript, TbBrandHtml5 } from "react-icons/tb";
+import { TbDatabase } from "react-icons/tb";
 import {
   FaReact,
-  FaNodeJs,
   FaGithub,
   FaLinkedin,
-  // FaLink,
   FaEnvelope,
   FaHome,
   FaBrain,
   FaInfo,
 } from "react-icons/fa";
 
+
 import logo_w from "../assets/imgs/logo_w.png";
 import logo from "../assets/imgs/logo.png";
+import { BsCodeSlash, BsBraces } from "react-icons/bs";
 // import icon_w from '../assets/imgs/icon_w.svg';
 // import icon from "../assets/imgs/icon.svg";
 
@@ -47,40 +47,40 @@ export const navbarLinks = [
 const projectIconSize = 100;
 export const skillLanguages = [
   {
-    id: "html",
-    language: "HTML 5 + CSS",
+    id: "languages",
+    language: "Languages",
     route: "/expertise",
-    icon: <TbBrandHtml5 size={projectIconSize} strokeWidth={1.5} />,
-    // color: "rgba(245, 132, 47, 1)",
-    color:
-      "bg-orange-300 dark:bg-orange-700 hover:bg-orange-200 dark:hover:bg-orange-800 hover:duration-300",
-  },
-  {
-    id: "vanillajs",
-    language: "Vanilla JS",
-    route: "/expertise",
-    icon: <TbBrandJavascript size={projectIconSize} strokeWidth={1.5} />,
+    icon: <BsBraces size={projectIconSize} />,
     // color: "rgba(255, 213, 0, 1)",
     color:
-      "bg-yellow-300 dark:bg-yellow-500 hover:bg-yellow-200 dark:hover:bg-yellow-600 hover:duration-300",
+    "bg-violet-300 dark:bg-violet-500 hover:bg-violet-200 dark:hover:bg-violet-600 hover:duration-300",
   },
   {
-    id: "reactjs",
-    language: "React JS",
+    id: "webdev",
+    language: "Web Development",
     route: "/expertise",
-    icon: <FaReact size={projectIconSize} />,
-    // color: "rgba(74, 83, 255, 1)",
+    icon: <BsCodeSlash size={projectIconSize}/>,
+    // color: "rgba(245, 132, 47, 1)",
     color:
-      "bg-blue-300 dark:bg-blue-700 hover:bg-blue-200 dark:hover:bg-blue-800 hover:duration-300",
+      "bg-orange-300 dark:bg-orange-600 hover:bg-orange-200 dark:hover:bg-orange-700 hover:duration-300",
   },
   {
-    id: "nodejs",
-    language: "Node JS",
+    id: "libraries-and-frameworks",
+    language: "Libraries & Frameworks",
     route: "/expertise",
-    icon: <FaNodeJs size={projectIconSize} />,
+    icon: <FaReact size={projectIconSize}/>,
     // color: "rgba(0, 201, 24, 1)",
     color:
-      "bg-green-300 dark:bg-green-700 hover:bg-green-200 dark:hover:bg-green-800 hover:duration-300",
+      "bg-green-300 dark:bg-green-600 hover:bg-green-200 dark:hover:bg-green-700 hover:duration-300",
+  },
+  {
+    id: "databases",
+    language: "Databases",
+    route: "/expertise",
+    icon: <TbDatabase size={projectIconSize}  strokeWidth={1}/>,
+    // color: "rgba(74, 83, 255, 1)",
+    color:
+      "bg-blue-300 dark:bg-blue-600 hover:bg-blue-200 dark:hover:bg-blue-700 hover:duration-300",
   },
 ];
 

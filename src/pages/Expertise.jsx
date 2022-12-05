@@ -18,7 +18,7 @@ const Knowledge = () => {
                 >
                   <div className="self-center">{item.icon}</div>
                   <div
-                    className="text-2xl tablet:text-3xl laptop:text-4xl font-semibold self-center "
+                    className="text-2xl tablet:text-3xl laptop:text-4xl font-semibold self-center w-full text-center "
                     key={item.id}
                   >
                     {item.language}
