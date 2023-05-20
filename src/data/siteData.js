@@ -308,15 +308,15 @@ export const aboutMeData = {
   logo,
   // icon_w,
   // icon,
-  currentLevel: 33,
+  currentLevel: 34,
   description:
-    "I am a person who enjoys learning and programming, I am always trying to learn more!",
-  interests: ["Web Dev", "UI/UX", "Backend", "Databases"],
+    "I am a curious and passionate learner who loves to explore new ideas and technologies. I am always eager to expand my knowledge and skills in programming and beyond.",
+  interests: ["Web Development", "Front End", "UI/UX Designs", "Backend", "Databases"],
   hobbies: [
     "Photography",
-    "Video games",
     "Cooking",
     "Drawing",
+    "and of course Video games",
   ],
   languages: [
     "Spanish",
