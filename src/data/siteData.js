@@ -242,16 +242,16 @@ export const contactData = [
   {
     id: "linkedin",
     description:
-      "Also check my linkedin profile to know about my professional career and some of my courses certifications.",
+      "Also check my linkedin profile to know about my professional career and some of my certifications.",
     url: "http://www.linkedin.com/in/JOMADELEMA",
     name: "/JOMADELEMA",
     icon: <FaLinkedin size={contactIconSize} />,
   },
   {
     id: "email",
-    description: "or see below my e-mail to get in touch.",
-    url: "mailto:jomadelema@gmail.com",
-    name: "jomadelema@gmail.com",
+    description: "e-mail me to get in touch.",
+    url: "mailto:me@jomadelema.com",
+    name: "me@jomadelema.com",
     icon: <FaEnvelope size={contactIconSize} />,
   },
 ];
