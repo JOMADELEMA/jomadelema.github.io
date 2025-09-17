@@ -4,7 +4,7 @@ import { useStateContext } from "../contexts/ContextProvider";
 
 const About = () => {
   const { currentMode } = useStateContext();
-  const card = "w-5/6 h-auto tablet:h-56 text-md laptop:text-lg text-left dark:border shadow rounded-md my-2 p-4 hover:shadow-md hover:bg-gray-100 dark:hover:bg-gray-900 hover:duration-500 dark:bg-fdark-hover1";
+  const card = "w-5/6 h-auto tablet:h-56 text-md laptop:text-lg text-left dark:border shadow rounded-md my-2 p-4 hover:shadow-md hover:bg-gray-100 dark:hover:bg-gray-600 hover:duration-500 dark:bg-fdark-hover1";
   const cardTitle = "font-normal text-md laptop:text-xl border-b pb-2 rounded-sm text-center mb-2";
 
   return (

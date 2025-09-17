@@ -21,6 +21,10 @@ import {
   // LandingPage,
   // Blog,
 } from "../pages";
+import Design from "../pages/Design";
+import WebDev from "../pages/WebDev";
+import GameDev from "../pages/GameDev";
+import Apis from "../pages/Apis";
 
 export default function AppRouter() {
   return (
@@ -31,11 +35,19 @@ export default function AppRouter() {
       <Route exact path="/expertise" element={<Expertise />}></Route>
       {/* <Route exact path="/expertise/:group" element={<Skill />}></Route> */}
       <Route exact path="/expertise/:group" element={<UnderConstruction />}></Route>
+      <Route exact path="/expertise/design" element={<Design />} />
+      <Route exact path="/expertise/webdev" element={<WebDev />} />
+      <Route exact path="/expertise/gamedev" element={<GameDev />} />
+      <Route exact path="/expertise/apis" element={<Apis />} />
+
+
       <Route exact path="/expertise/html/demos" element={<HTML />} />
       <Route exact path="/expertise/html/structure" element={<Structure />} />
       <Route exact path="/expertise/html/lists" element={<Lists />} />
       <Route exact path="/expertise/html/tables" element={<Tables />} />
       <Route exact path="/expertise/html/forms" element={<Forms />} />
+
+      
       
       {/* <Route
         exact
