@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       backgroundColor: {
-        "f-bg": "#FAFAFA",
+        "f-bg": "#F8F8F8",
         "fdark-bg": "#292929",
         "f-hover1": "#F5F5F5",
         "fdark-hover1": "#3D3D3D",

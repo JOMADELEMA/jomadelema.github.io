@@ -308,7 +308,7 @@ export const quotes = [
 
 export const aboutMeData = {
   id: "JOMADELEMA",
-  name: "Jorge de León",
+  name: "Jorge de León M.",
   logo_w,
   logo,
   // icon_w,
