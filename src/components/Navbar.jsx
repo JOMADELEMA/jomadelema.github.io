@@ -21,24 +21,24 @@ const Navbar = () => {
           <div className="w-16 tablet:w-32  font-semibold self-center text-2xl flex justify-center laptop:hidden">
             <TbMenu2
               size={30}
-              className="cursor-pointer laptop:hidden"
+              className="cursor-pointer laptop:hidden hover:scale-125 hover:duration-100 hover:ease-in"
               onClick={() => toggleSidebar(sidebarVisible)}
             />
           </div>
           <div id="Social" className="flex place-items-center justify-between px-5">
-            <a href="https://twitter.com/jomadelema_dev" target="_blank" rel="noreferrer">
+            <a href="https://twitter.com/jomadelema_dev" target="_blank" rel="noreferrer" className="hover:scale-125 hover:duration-100 hover:ease-in">
               <FaTwitter size={20} className="mx-2" />
             </a>
 
-            <a href="https://www.instagram.com/jomadelema.dev/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/jomadelema.dev/" target="_blank" rel="noreferrer" className="hover:scale-125 hover:duration-100 hover:ease-in">
               <FaInstagram size={20} className="mx-2" />
             </a>
 
-            <a href="https://dribbble.com/jomadelema" target="_blank" rel="noreferrer">
+            <a href="https://dribbble.com/jomadelema" target="_blank" rel="noreferrer" className="hover:scale-125 hover:duration-100 hover:ease-in">
               <FaDribbble size={20} className="mx-2" />
             </a>
 
-            <a href="https://github.com/JOMADELEMA" target="_blank" rel="noreferrer">
+            <a href="https://github.com/JOMADELEMA" target="_blank" rel="noreferrer" className="hover:scale-125 hover:duration-100 hover:ease-in">
               <FaGithub size={20} className="mx-2" />
             </a>
           </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
 
 
           <div
-            className="w-16 tablet:w-32 cursor-pointer px-2 self-center flex justify-center"
+            className="w-16 tablet:w-32 cursor-pointer px-2 self-center flex justify-center hover:scale-125 hover:duration-100 hover:ease-in"
             onClick={() => {
               toggleMode(currentMode);
             }}
