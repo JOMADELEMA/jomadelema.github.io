@@ -18,14 +18,13 @@ const About = () => {
         id="about-section"
       >
         <div
-          className={`w-full text-black dark:text-white flex flex-col justify-start sm:justify-center items-center overflow-auto ${
-            currentMode === "Dark" ? "background-dark" : "background"
-          }`}
+          className={`w-full text-black dark:text-white flex flex-col justify-start sm:justify-center items-center overflow-auto ${currentMode === "Dark" ? "background-dark" : "background"
+            }`}
         >
-          <div className="self-center">
-            <div className="flex flex-col laptop:flex-row w-10/12 py-5 mt-10  laptop:px-5">
-              <div className="font-normal text-5xl tablet:text-6xl laptop:text-7xl desktop:text-8xl laptop:font-normal  flex self-center mb-5 laptop:mb-0 laptop:w-1/2 laptop:h-full laptop:mr-5">
-                <div className="">{aboutMeData.name}</div>
+          <div className="self-center flex flex-col justify-center place-items-center">
+            <div className="flex flex-col laptop:flex-row w-10/12 py-5 mt-10  laptop:px-5" >
+              <div className="font-normal text-5xl tablet:text-6xl laptop:text-7xl desktop:text-8xl laptop:font-normal  flex self-center justify-center mb-5 laptop:mb-0 laptop:w-1/2 laptop:h-full laptop:mr-5">
+                <h1 className="tablet:w-11/12 laptop:w-11/12 self-center">{aboutMeData.name}</h1>
               </div>
 
               <div className="flex flex-col laptop:w-1/2 laptop:justify-around">

@@ -1,4 +1,3 @@
-import { TbDatabase } from "react-icons/tb";
 import {
   // FaReact,
   FaGithub,
@@ -6,7 +5,7 @@ import {
   FaEnvelope,
   FaHome,
   FaBrain,
-  FaInfo,
+  FaInfoCircle,
   FaGamepad,
   FaFigma,
   FaServer,
@@ -25,25 +24,25 @@ const navbarLinkIconSize = 20;
 export const navbarLinks = [
   {
     id: "home",
-    name: "HOME",
+    name: "Home",
     route: "/",
     icon: <FaHome size={navbarLinkIconSize} />,
   },
   {
     id: "about",
-    name: "ABOUT ME",
+    name: "About me",
     route: "/about",
-    icon: <FaInfo size={navbarLinkIconSize} />,
+    icon: <FaInfoCircle size={navbarLinkIconSize} />,
   },
   {
     id: "expertise",
-    name: "EXPERTISE",
+    name: "Expertise",
     route: "/expertise",
     icon: <FaBrain size={navbarLinkIconSize} />,
   },
   {
     id: "contact",
-    name: "CONTACT",
+    name: "Contact",
     route: "/contact",
     icon: <FaEnvelope size={navbarLinkIconSize} />,
   },
