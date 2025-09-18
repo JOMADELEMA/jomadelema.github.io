@@ -1,6 +1,7 @@
 import React from "react";
 import { TbSun, TbMoon, TbMenu2 } from "react-icons/tb";
-import { FaTwitter, FaInstagram, FaDribbble, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from 'react-icons/fa6'
+import { FaInstagram, FaDribbble, FaGithub } from "react-icons/fa";
 import { useStateContext } from "../contexts/ContextProvider";
 import { navbarLinks } from "../data/siteData";
 import { NavLink } from "react-router-dom";
@@ -27,7 +28,7 @@ const Navbar = () => {
           </div>
           <div id="Social" className="flex place-items-center justify-between px-5">
             <a href="https://twitter.com/jomadelema_dev" target="_blank" rel="noreferrer" className="hover:scale-125 hover:duration-100 hover:ease-in">
-              <FaTwitter size={20} className="mx-2" />
+              <FaXTwitter size={20} className="mx-2" />
             </a>
 
             <a href="https://www.instagram.com/jomadelema.dev/" target="_blank" rel="noreferrer" className="hover:scale-125 hover:duration-100 hover:ease-in">

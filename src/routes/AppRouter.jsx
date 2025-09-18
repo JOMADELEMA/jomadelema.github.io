@@ -36,9 +36,10 @@ export default function AppRouter() {
       {/* <Route exact path="/expertise/:group" element={<Skill />}></Route> */}
       <Route exact path="/expertise/:group" element={<UnderConstruction />}></Route>
       <Route exact path="/expertise/design" element={<Design />} />
-      <Route exact path="/expertise/webdev" element={<WebDev />} />
+      {/* <Route exact path="/expertise/webdev" element={<WebDev />} /> */}
       <Route exact path="/expertise/gamedev" element={<GameDev />} />
-      <Route exact path="/expertise/apis" element={<Apis />} />
+      <Route exact path="/expertise/gamedev/nass-devlog" element={<UnderConstruction />} />
+      {/* <Route exact path="/expertise/apis" element={<Apis />} /> */}
 
 
       <Route exact path="/expertise/html/demos" element={<HTML />} />
