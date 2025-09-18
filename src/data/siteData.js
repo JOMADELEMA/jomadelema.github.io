@@ -57,7 +57,8 @@ export const skillLanguages = [
     icon: <FaFigma size={projectIconSize} />,
     // color: "rgba(255, 213, 0, 1)",
     color:
-      "bg-violet-300 dark:bg-violet-500 hover:bg-violet-200 dark:hover:bg-violet-600 hover:duration-300",
+      // "bg-violet-300 dark:bg-violet-500 hover:bg-violet-200 dark:hover:bg-violet-600 hover:duration-300",
+      "bg-violet-500 dark:bg-violet-300 hover:bg-violet-600 dark:hover:bg-violet-200 hover:duration-300",
   },
   {
     id: "webdev",
@@ -354,13 +355,14 @@ export const htmlDemos = [
   },
 ];
 
-export const webDesigns = [
+export const designs = [
   {
     title: "404 not found message",
     description: "Website 404 Not found error message site",
     url: "https://pbs.twimg.com/media/FvJKPuYWwBAhKB1?format=jpg&name=4096x4096",
     social: "https://x.com/jomadelema_dev/status/1653466035750567936",
     tags: "Figma",
+    type: "web",
   },
   {
     title: "e-commerce Shop",
@@ -368,6 +370,7 @@ export const webDesigns = [
     url: "https://pbs.twimg.com/media/Fvn6IL_XsAk8GFY?format=jpg&name=large",
     social: "https://x.com/jomadelema_dev/status/1650734634529955840",
     tags: "Figma",
+    type: "web",
   },
   {
     title: "Calculator",
@@ -375,6 +378,7 @@ export const webDesigns = [
     url: "https://pbs.twimg.com/media/FupxSwaXwAECLd_?format=jpg&name=medium",
     social: "https://x.com/jomadelema_dev/status/1655629418306449430",
     tags: "Figma, e-commerce",
+    type: "mobile",
   },
   {
     title: "Countdown Timer",
@@ -382,6 +386,7 @@ export const webDesigns = [
     url: "https://pbs.twimg.com/media/Fvxf6XZXsAATgXZ?format=jpg&name=4096x4096",
     social: "https://x.com/jomadelema_dev/status/1656304593150541825",
     tags: "lroem loem lorem poem",
+    type: "web",
   },
   {
     title: "Location Tracker",
@@ -389,6 +394,7 @@ export const webDesigns = [
     url: "https://pbs.twimg.com/media/FwavbKtaEAAqOp6?format=jpg&name=4096x4096",
     social: "https://x.com/jomadelema_dev/status/1659206902574882818",
     tags: "tracker, location, neubrutalism",
+    type: "web",
   },
   {
     title: "Home Monitoring Dashboard",
@@ -397,23 +403,15 @@ export const webDesigns = [
     url: "https://pbs.twimg.com/media/Fwhy3-HWcAMTbI4?format=jpg&name=4096x4096",
     social: "https://x.com/jomadelema_dev/status/1659703209357717505",
     tags: "monitoring, glassmorphism",
+    type: "web",
   },
-];
-
-export const mobileDesigns = [
   {
     title: "Card Checkout",
     description: "Mobile device credit card checkout and success message",
     url: "https://pbs.twimg.com/media/FuiWC74XoAAHxi_?format=jpg&name=4096x4096",
     social: "https://x.com/jomadelema_dev/status/1650734634529955840",
     tags: "Figma",
-  },
-  {
-    title: "Calculator",
-    description: "Calculator app with neumorphism effect",
-    url: "https://pbs.twimg.com/media/FupxSwaXwAECLd_?format=jpg&name=medium",
-    social: "https://x.com/jomadelema_dev/status/1651257350269927424",
-    tags: "Figma, neumorphism",
+    type: "mobile",
   },
   {
     title: "Error and Success Message",
@@ -421,6 +419,7 @@ export const mobileDesigns = [
     url: "https://pbs.twimg.com/media/FvZqhynXoAY_cR9?format=jpg&name=4096x4096",
     social: "https://x.com/jomadelema_dev/status/1654628087324082176",
     tags: "error, success, figma",
+    type: "mobile",
   },
   {
     title: "Leaderboard",
@@ -428,6 +427,7 @@ export const mobileDesigns = [
     url: "https://pbs.twimg.com/media/FwYTWFmWYAEXSeV?format=jpg&name=4096x4096",
     social: "https://x.com/IftahazK/status/1659472252310814720",
     tags: "leaderboard, ",
+    type: "mobile",
   },
   {
     title: "Onboarding",
@@ -435,5 +435,6 @@ export const mobileDesigns = [
     url: "https://pbs.twimg.com/media/Fw3kYfLXsAMvziB?format=jpg&name=4096x4096",
     social: "https://x.com/jomadelema_dev/status/1661235134782402562",
     tags: "lroem loem lorem poem",
+    type: "mobile",
   },
 ];
