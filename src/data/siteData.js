@@ -229,7 +229,7 @@ export const skill = [
   },
 ];
 
-const contactIconSize = 20;
+const contactIconSize = 72;
 export const contactData = [
   {
     id: "github",
@@ -426,15 +426,63 @@ export const designs = [
     description: "Season leaderboard design for a mobile game or app",
     url: "https://pbs.twimg.com/media/FwYTWFmWYAEXSeV?format=jpg&name=4096x4096",
     social: "https://x.com/IftahazK/status/1659472252310814720",
-    tags: "leaderboard, ",
+    tags: "leaderboard",
     type: "mobile",
   },
   {
     title: "Onboarding",
-    description: "",
+    description: "Cards to motivate the user to sign up",
     url: "https://pbs.twimg.com/media/Fw3kYfLXsAMvziB?format=jpg&name=4096x4096",
     social: "https://x.com/jomadelema_dev/status/1661235134782402562",
-    tags: "lroem loem lorem poem",
+    tags: "sign up",
     type: "mobile",
+  },
+  {
+    title: "Subscribe",
+    description: "Screen design to motivate the user to subscribe to updates",
+    url: "https://pbs.twimg.com/media/FxENCG-XoAMfQ4K?format=jpg&name=4096x4096",
+    social: "https://x.com/jomadelema_dev/status/1662124300919271424",
+    tags: "subscribe",
+    type: "web",
+  },
+  {
+    title: "Pricing",
+    description: "Design to show the user the available plans",
+    url: "https://pbs.twimg.com/media/Fxi19oWaQAcd8ig?format=jpg&name=4096x4096",
+    social: "https://x.com/jomadelema_dev/status/1664280454336512002",
+    tags: "pricing",
+    type: "web",
+  },
+  {
+    title: "File Upload",
+    description: "Design to show the user the available plans",
+    url: "https://pbs.twimg.com/media/Fxp-lBQX0AA9KAT?format=jpg&name=4096x4096",
+    social: "https://x.com/jomadelema_dev/status/1664782574743330817",
+    tags: "file, upload",
+    type: "mobile",
+  },
+  {
+    title: "Calendar",
+    description: "A themed by month calendar idea",
+    url: "https://pbs.twimg.com/media/Fyoqc3lXwAIISMK?format=jpg&name=large",
+    social: "https://x.com/jomadelema_dev/status/1669193591325851649",
+    tags: "calendar",
+    type: "mobile",
+  },
+  {
+    title: "Testimonials",
+    description: "An elegant way to show the customers testimonials",
+    url: "https://pbs.twimg.com/media/FytoQHmWwAAVfSf?format=jpg&name=4096x4096",
+    social: "https://x.com/jomadelema_dev/status/1669542990136655874",
+    tags: "testimonial",
+    type: "web",
+  },
+  {
+    title: "Info Card",
+    description: "A glassmorphism style card to show information",
+    url: "https://pbs.twimg.com/media/FzW2O74XwAIAGlH?format=jpg&name=4096x4096",
+    social: "https://x.com/jomadelema_dev/status/1672443370059317248",
+    tags: "testimonial",
+    type: "web",
   },
 ];
