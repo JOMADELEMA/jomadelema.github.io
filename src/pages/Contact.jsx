@@ -24,7 +24,7 @@ const Contact = () => {
               {contactData.map((item) => (
                 <div
                   key={item.id}
-                  className={`text-xl font-light flex flex-col my-3 tablet:m-5 pb-10 shadow bg-white dark:bg-fdark-hover1 dark:border dark:border-neutral-600 rounded-md relative h-64
+                  className={`text-xl font-light flex flex-col my-3 tablet:m-5 pb-10 bg-white hover:bg-gray-100 dark:border dark:border-neutral-600 rounded-md relative h-64 shadow-soft dark:bg-fdark-bg hover:dark:bg-fdark-hover1 hover:duration-300
                     `}
                 // ${item.id === "email" ? colSpan2 : colSpan1}
                 >

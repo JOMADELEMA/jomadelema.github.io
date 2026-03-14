@@ -1,14 +1,32 @@
 import React from "react";
 import "./Home.css";
-import { aboutMeData } from "../data/siteData";
+import { aboutMeData, dateOfBirth } from "../data/siteData";
 import { useStateContext } from "../contexts/ContextProvider";
 
 const About = () => {
   const { currentMode } = useStateContext();
   const card =
-    "w-5/6 h-5/6 tablet:h-56 text-md laptop:text-lg text-left dark:border dark:border-neutral-600 shadow rounded-md my-2 p-4 bg-white hover:shadow-md hover:bg-neutral-200 dark:hover:bg-neutral-600 hover:duration-500 dark:bg-fdark-hover1";
+    "w-5/6 h-5/6 tablet:h-56 text-md laptop:text-lg text-left dark:border dark:border-neutral-600 shadow-soft rounded-md my-2 p-4 bg-white hover:bg-gray-100 dark:hover:bg-neutral-600 hover:duration-500 dark:bg-fdark-hover1";
   const cardTitle =
     "font-semibold text-xl laptop:text-2xl border-b pb-2 rounded-sm text-center mb-2";
+
+
+  const calculateAge = (dob) => {
+    const today = new Date();
+    let years = today.getFullYear() - dob.getFullYear();
+    const monthDiff = today.getMonth() - dob.getMonth();
+    const dayDiff = today.getDate() - dob.getDate();
+
+    if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+      years--
+    }
+
+    return years;
+  }
+
+  const pDateOfBirth = new Date(dateOfBirth)
+
+  const currentLevel = calculateAge(pDateOfBirth);
 
   return (
     <>
@@ -23,7 +41,7 @@ const About = () => {
         >
           <div className="self-center flex flex-col justify-center place-items-center">
             <div className="flex flex-col laptop:flex-row w-10/12 py-5 mt-10  laptop:px-5" >
-              <div className="font-normal text-5xl tablet:text-6xl laptop:text-7xl desktop:text-8xl laptop:font-normal  flex self-center justify-center mb-5 laptop:mb-0 laptop:w-1/2 laptop:h-full laptop:mr-5">
+              <div className="font-normal text-4xl tablet:text-5xl laptop:text-6xl desktop:text-7xl laptop:font-normal  flex self-center justify-center mb-5 laptop:mb-0 laptop:w-1/2 laptop:h-full laptop:mr-5">
                 <h1 className="tablet:w-11/12 laptop:w-11/12 self-center">{aboutMeData.name}</h1>
               </div>
 
@@ -46,7 +64,8 @@ const About = () => {
 
                 <div className="font-normal text-2xl tablet:text-2xl laptop:text-3xl desktop:text-4xl flex self-center laptop:justify-start laptop:w-full">
                   <span>Age:</span>
-                  <div className="ml-2">{aboutMeData.currentLevel}</div>
+                  {/* <div className="ml-2">{aboutMeData.currentLevel}</div> */}
+                  <div className="ml-2">{currentLevel}</div>
                 </div>
 
                 <div className="w-full flex justify-center laptop:justify-start">

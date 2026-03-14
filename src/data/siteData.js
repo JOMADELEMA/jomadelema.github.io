@@ -21,6 +21,9 @@ import {
 // import icon from "../assets/imgs/icon.svg";
 
 const navbarLinkIconSize = 20;
+
+export const dateOfBirth = '1989-04-08';
+
 export const navbarLinks = [
   {
     id: "home",
@@ -359,7 +362,7 @@ export const designs = [
   {
     title: "404 not found message",
     description: "Website 404 Not found error message site",
-    url: "https://pbs.twimg.com/media/FvJKPuYWwBAhKB1?format=jpg&name=4096x4096",
+    url: "/imgs/designs/404-not-found.jpg",
     social: "https://x.com/jomadelema_dev/status/1653466035750567936",
     tags: "Figma",
     type: "web",
@@ -367,7 +370,7 @@ export const designs = [
   {
     title: "e-commerce Shop",
     description: "Single item page for an e-commerce website",
-    url: "https://pbs.twimg.com/media/Fvn6IL_XsAk8GFY?format=jpg&name=large",
+    url: "/imgs/designs/ecommerce-shop-single-item.jpg",
     social: "https://x.com/jomadelema_dev/status/1650734634529955840",
     tags: "Figma",
     type: "web",
@@ -375,7 +378,7 @@ export const designs = [
   {
     title: "Calculator",
     description: "Calculator app with neumorphism effect",
-    url: "https://pbs.twimg.com/media/FupxSwaXwAECLd_?format=jpg&name=medium",
+    url: "/imgs/designs/calculator.jpg",
     social: "https://x.com/jomadelema_dev/status/1655629418306449430",
     tags: "Figma, e-commerce",
     type: "mobile",
@@ -383,7 +386,7 @@ export const designs = [
   {
     title: "Countdown Timer",
     description: "Countdown timer for a webapp",
-    url: "https://pbs.twimg.com/media/Fvxf6XZXsAATgXZ?format=jpg&name=4096x4096",
+    url: "/imgs/designs/countdown-timer.jpg",
     social: "https://x.com/jomadelema_dev/status/1656304593150541825",
     tags: "lroem loem lorem poem",
     type: "web",
@@ -391,7 +394,7 @@ export const designs = [
   {
     title: "Location Tracker",
     description: "A tracker for web site using neubrutalism design",
-    url: "https://pbs.twimg.com/media/FwavbKtaEAAqOp6?format=jpg&name=4096x4096",
+    url: "/imgs/designs/location-tracker.jpg",
     social: "https://x.com/jomadelema_dev/status/1659206902574882818",
     tags: "tracker, location, neubrutalism",
     type: "web",
@@ -400,7 +403,7 @@ export const designs = [
     title: "Home Monitoring Dashboard",
     description:
       "A dashboard usign glassmorphism design for a home monitoring dashboard",
-    url: "https://pbs.twimg.com/media/Fwhy3-HWcAMTbI4?format=jpg&name=4096x4096",
+    url: "/imgs/designs/home-monitoring.jpg",
     social: "https://x.com/jomadelema_dev/status/1659703209357717505",
     tags: "monitoring, glassmorphism",
     type: "web",
@@ -408,7 +411,7 @@ export const designs = [
   {
     title: "Card Checkout",
     description: "Mobile device credit card checkout and success message",
-    url: "https://pbs.twimg.com/media/FuiWC74XoAAHxi_?format=jpg&name=4096x4096",
+    url: "/imgs/designs/card-checkout.jpg",
     social: "https://x.com/jomadelema_dev/status/1650734634529955840",
     tags: "Figma",
     type: "mobile",
@@ -416,7 +419,7 @@ export const designs = [
   {
     title: "Error and Success Message",
     description: "Success and Error message for a mobile device app",
-    url: "https://pbs.twimg.com/media/FvZqhynXoAY_cR9?format=jpg&name=4096x4096",
+    url: "/imgs/designs/error-success-message.jpg",
     social: "https://x.com/jomadelema_dev/status/1654628087324082176",
     tags: "error, success, figma",
     type: "mobile",
@@ -424,7 +427,7 @@ export const designs = [
   {
     title: "Leaderboard",
     description: "Season leaderboard design for a mobile game or app",
-    url: "https://pbs.twimg.com/media/FwYTWFmWYAEXSeV?format=jpg&name=4096x4096",
+    url: "/imgs/designs/leaderboard.jpg",
     social: "https://x.com/IftahazK/status/1659472252310814720",
     tags: "leaderboard",
     type: "mobile",
@@ -432,7 +435,7 @@ export const designs = [
   {
     title: "Onboarding",
     description: "Cards to motivate the user to sign up",
-    url: "https://pbs.twimg.com/media/Fw3kYfLXsAMvziB?format=jpg&name=4096x4096",
+    url: "/imgs/designs/onboarding.jpg",
     social: "https://x.com/jomadelema_dev/status/1661235134782402562",
     tags: "sign up",
     type: "mobile",
@@ -440,7 +443,7 @@ export const designs = [
   {
     title: "Subscribe",
     description: "Screen design to motivate the user to subscribe to updates",
-    url: "https://pbs.twimg.com/media/FxENCG-XoAMfQ4K?format=jpg&name=4096x4096",
+    url: "/imgs/designs/subscribe.jpg",
     social: "https://x.com/jomadelema_dev/status/1662124300919271424",
     tags: "subscribe",
     type: "web",
@@ -448,7 +451,7 @@ export const designs = [
   {
     title: "Pricing",
     description: "Design to show the user the available plans",
-    url: "https://pbs.twimg.com/media/Fxi19oWaQAcd8ig?format=jpg&name=4096x4096",
+    url: "/imgs/designs/pricing.jpg",
     social: "https://x.com/jomadelema_dev/status/1664280454336512002",
     tags: "pricing",
     type: "web",
@@ -456,7 +459,7 @@ export const designs = [
   {
     title: "File Upload",
     description: "Design to show the user the available plans",
-    url: "https://pbs.twimg.com/media/Fxp-lBQX0AA9KAT?format=jpg&name=4096x4096",
+    url: "/imgs/designs/file-uploading.jpg",
     social: "https://x.com/jomadelema_dev/status/1664782574743330817",
     tags: "file, upload",
     type: "mobile",
@@ -464,7 +467,7 @@ export const designs = [
   {
     title: "Calendar",
     description: "A themed by month calendar idea",
-    url: "https://pbs.twimg.com/media/Fyoqc3lXwAIISMK?format=jpg&name=large",
+    url: "/imgs/designs/calendar.jpg",
     social: "https://x.com/jomadelema_dev/status/1669193591325851649",
     tags: "calendar",
     type: "mobile",
@@ -472,7 +475,7 @@ export const designs = [
   {
     title: "Testimonials",
     description: "An elegant way to show the customers testimonials",
-    url: "https://pbs.twimg.com/media/FytoQHmWwAAVfSf?format=jpg&name=4096x4096",
+    url: "/imgs/designs/testimonials.jpg",
     social: "https://x.com/jomadelema_dev/status/1669542990136655874",
     tags: "testimonial",
     type: "web",
@@ -480,7 +483,7 @@ export const designs = [
   {
     title: "Info Card",
     description: "A glassmorphism style card to show information",
-    url: "https://pbs.twimg.com/media/FzW2O74XwAIAGlH?format=jpg&name=4096x4096",
+    url: "/imgs/designs/info-card.jpg",
     social: "https://x.com/jomadelema_dev/status/1672443370059317248",
     tags: "testimonial",
     type: "web",

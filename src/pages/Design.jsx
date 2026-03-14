@@ -11,27 +11,28 @@ const Design = () => {
           className="text-black dark:text-white w-full h-screen p-14 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 grid gap-5 overflow-auto"
           id="cards-container"
         >
-          {designs.map((index) => (
+          {designs.map((design) => (
             <div className="border border-neutral-800 hover:border-neutral-700 hover:bg-neutral-800 hover:shadow-sm hover:shadow-neutral-700 p-5 dark:bg-neutral-800 overflow-clip rounded-lg relative">
               <a
-                href={index.social}
+                href={design.social}
                 target="_blank"
                 rel="noreferrer"
                 className="w-full h-full"
               >
                 <div className="h-4/6 w-5/6 justify-self-center rounded-lg">
                   <img
-                    src={index.url}
-                    alt={index.title}
-                    className="object-cover h-full w-full rounded-lg"
+                    src={design.url}
+                    alt={design.title}
+                    className="object-cover h-full w-full rounded-lg hover:scale-105 hover:duration-300"
+                    // className="object-cover h-40 w-40 rounded-lg"
                   />
                 </div>
 
-                <h1 className="text-xl font-semibold my-2">{index.title}</h1>
-                <p className="mb-5">{index.description}</p>
+                <h1 className="text-xl font-semibold my-2">{design.title}</h1>
+                <p className="mb-5">{design.description}</p>
                 <FaXTwitter size="25" className=" mt-2" />
               </a>
-              <span className="absolute bottom-4 right-4">{index.type === "mobile" ? <FaMobile size="20" /> : <FaDesktop size="20" />}</span>
+              <span className="absolute bottom-4 right-4">{design.type === "mobile" ? <FaMobile size="20" /> : <FaDesktop size="20" />}</span>
             </div>
           ))}
         </div>
@@ -40,4 +41,4 @@ const Design = () => {
   );
 };
 
-export default Design;
+export default Design
