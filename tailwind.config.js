@@ -34,9 +34,13 @@ module.exports = {
       },
       height: {
         section_container: "90%",
-
       },
       boxShadow: {
+        soft: "inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.15);",
+        medium:
+          "inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.15);",
+        strong:
+          "inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 4px 6px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.15);",
         // "f-2": "0 0 2px rgba(0,0,0,0.12) 0 1px 2px rgba(0,0,0,0.14)",
         // "fdark-2": "0 0 2px rgba(0,0,0,0.24) 0 1px 2px rgba(0,0,0,0.28)",
         // "f-4": "0 0 2px rgba(0,0,0,0.12) 0 2px 4px rgba(0,0,0,0.14)",
@@ -50,7 +54,7 @@ module.exports = {
         //grid para layout
         joma6: "4fr 1fr 1fr",
       },
-      fontSize:{
+      fontSize: {
         "10xl": "9rem",
       },
       flex: {
