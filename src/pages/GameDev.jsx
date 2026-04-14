@@ -18,7 +18,7 @@ const GameDev = () => {
             Please visit my itch.io profile to follow up and see the results and some of the prototypes I'm working to improve my skills with Godot and GD Script.
           </p>
 
-          <Link to="jomadelema.itch.io" className="underline text-blue-500 hover:text-blue-400 text-xl ">Game Dev Profile</Link>
+          <a href="https://jomadelema.itch.io" className="underline text-blue-500 hover:text-blue-400 text-xl ">Game Dev Profile</a>
         </section>
 
         <section id="published-games" className="grid gap-5 mt-5">
@@ -28,9 +28,13 @@ const GameDev = () => {
               <h2 className="text-3xl md:text-xl">Not Another Space Shooter - NASS</h2>
               <p className="text-lg">An space shooter game (no way sherlock)</p>
               <div className="flex gap-5">
-                <Link to="https://jomadelema.itch.io/not-another-space-shooter" className="underline text-blue-500 hover:text-blue-400 text-xl ">Try NASS</Link>
+                {/* <Link to="https://jomadelema.itch.io/not-another-space-shooter" */}
+                <a href="https://jomadelema.itch.io/not-another-space-shooter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-500 hover:text-blue-400 text-xl ">Try NASS</a>
                 <span>|</span>
-                <Link to="./nass-devlog" className="underline text-blue-500 hover:text-blue-400 text-xl ">Devlog</Link>
+                <Link to="./nass-devlog" className="underline hidden text-blue-500 hover:text-blue-400 text-xl ">Devlog</Link>
 
               </div>
             </div>
@@ -42,9 +46,12 @@ const GameDev = () => {
               <h2 className="text-3xl md:text-xl">Flappy Godot</h2>
               <p className="text-lg">A Flappy bird tribute</p>
               <div className="flex gap-5">
-                <Link to="https://jomadelema.itch.io/flappy-godot" className="underline text-blue-500 hover:text-blue-400 text-xl ">Try Flappy Godot</Link>
+                <a href="https://jomadelema.itch.io/flappy-godot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-500 hover:text-blue-400 text-xl ">Try Flappy Godot</a>
                 <span>|</span>
-                <Link to="./nass-devlog" className="underline text-blue-500 hover:text-blue-400 text-xl ">Devlog</Link>
+                <Link to="./nass-devlog" className="underline hidden text-blue-500 hover:text-blue-400 text-xl ">Devlog</Link>
 
               </div>
             </div>
