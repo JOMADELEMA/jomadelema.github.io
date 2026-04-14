@@ -18,7 +18,10 @@ const GameDev = () => {
             Please visit my itch.io profile to follow up and see the results and some of the prototypes I'm working to improve my skills with Godot and GD Script.
           </p>
 
-          <a href="https://jomadelema.itch.io" className="underline text-blue-500 hover:text-blue-400 text-xl ">Game Dev Profile</a>
+          <a href="https://jomadelema.itch.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline text-blue-500 hover:text-blue-400 text-xl ">Game Dev Profile</a>
         </section>
 
         <section id="published-games" className="grid gap-5 mt-5">
