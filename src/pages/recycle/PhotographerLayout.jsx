@@ -8,16 +8,16 @@ import {
   flower2,
   lake,
   paw,
-  shroom,
+  mushroom,
   sunset,
   tree,
   volcano,
-} from "../../../assets";
+} from "../../assets/photos";
 
-import iconow from '../../../assets/imgs/iconow.png'
-import icono from '../../../assets/imgs/icono.png'
+import iconow from '../../assets/imgs/icon_w.png'
+import icono from '../../assets/imgs/icon.png'
 
-import { useStateContext } from '../../../contexts/ContextProvider';
+import { useStateContext } from '../../contexts/ContextProvider';
 
 
 import { TbMenu2, TbCamera } from "react-icons/tb";
@@ -215,7 +215,7 @@ const PhotographerLayout = () => {
               className="lg:flex-25 lg:max-w-25 md:flex-50 md:max-w-50 px-1"
             >
               <img
-                src={shroom}
+                src={mushroom}
                 className="mt-2 align-middle w-full  rounded-md"
                 alt="pic1"
               />
@@ -240,7 +240,7 @@ const PhotographerLayout = () => {
               className="lg:flex-25 lg:max-w-25 md:flex-50 md:max-w-50 px-1"
             >
               <img
-                src={shroom}
+                src={mushroom}
                 className="mt-2 align-middle w-full  rounded-md"
                 alt="pic1"
               />

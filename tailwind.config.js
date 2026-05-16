@@ -80,6 +80,18 @@ module.exports = {
         desktop: "1280px",
         // => @media (min-width: 1280px) { ... }
       },
+
+      //marquee and animation
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 15s linear infinite",
+        marqueeSlow: "marquee 40s linear infinite",
+      },
     },
   },
   plugins: [],

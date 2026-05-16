@@ -1,11 +1,11 @@
 import React from "react";
-import {croc, miles} from "../../../assets/";
+import {crocodile, miles} from "../../assets/art";
 
 const DrawingsLayout = () => {
   return (
     <>
       <div>DrawingsLayout</div>
-      <img src={croc} alt="croc" />
+      <img src={crocodile} alt="croc" />
       <img src={miles} alt="miles" />
     </>
   );

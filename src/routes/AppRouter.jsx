@@ -16,15 +16,17 @@ import {
   VanillaJS,
   ReactJS,
   NodeJS,
-  // PhotographerLayout,
-  // DrawingsLayout,
+  PhotographerLayout,
+  DrawingsLayout,
+  DemoCarousel,
+  Gallery,
   // LandingPage,
   // Blog,
 } from "../pages";
 import Design from "../pages/Design";
-import WebDev from "../pages/WebDev";
+// import WebDev from "../pages/WebDev";
 import GameDev from "../pages/GameDev";
-import Apis from "../pages/Apis";
+// import Apis from "../pages/Apis";
 
 export default function AppRouter() {
   return (
@@ -50,16 +52,20 @@ export default function AppRouter() {
 
       
       
-      {/* <Route
+      <Route
         exact
         path="/expertise/html/demos/photographer"
         element={<PhotographerLayout />}
       />
+
+      <Route exact path="/demos/carousel" element={<DemoCarousel />} />
+      <Route exact path="/demos/gallery" element={<Gallery />} />
+
       <Route exact path="/expertise/html/demos/image-grid" element={<DrawingsLayout />} />
-      <Route exact path="/expertise/html/demos/landing-page" element={<LandingPage />} />
+      {/* <Route exact path="/expertise/html/demos/landing-page" element={<LandingPage />} />
       <Route exact path="/expertise/html/demos/blog" element={<Blog />} /> */}
 
-      <Route exact path="/expertise/vanillajs/demos" element={<VanillaJS />} />
+      <Route path="/expertise/vanillajs/demos" element={<VanillaJS />} />
       <Route exact path="/expertise/reactjs/demos" element={<ReactJS />} />
       <Route exact path="/expertise/nodejs/demos" element={<NodeJS />} />
 
