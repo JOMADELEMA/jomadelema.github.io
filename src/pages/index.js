@@ -14,8 +14,10 @@ export {default as Structure} from './Skills/html/Structure';
 export {default as Lists} from './Skills/html/Lists';
 export {default as Tables} from './Skills/html/Tables';
 export {default as Forms} from './Skills/html/Forms';
-// export {default as PhotographerLayout} from './Skills/html/PhotographerLayout'
-// export {default as DrawingsLayout} from './Skills/html/DrawingsLayout'
+export {default as PhotographerLayout} from './recycle/PhotographerLayout'
+export {default as DrawingsLayout} from './recycle/DrawingsLayout'
+export {default as DemoCarousel } from './demos/DemoCarousel'
+export {default as Gallery } from './demos/Gallery'
 // export {default as LandingPage} from './Skills/html/LandingPage'
 // export {default as Blog} from './Skills/html/Blog'
 
